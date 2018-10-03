@@ -1,0 +1,10 @@
+[main] configuration:
+  config = nohup.yaml
+
+[nohup] starting
+
+[nohup] running
+
+[main] stopping
+[nohup] stopping
+[nohup] force kill

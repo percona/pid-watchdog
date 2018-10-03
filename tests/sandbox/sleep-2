@@ -1,0 +1,19 @@
+#!/bin/sh
+
+APP=sleep-2
+CMD=$1
+
+SANDBOX_DIR="$( dirname "${BASH_SOURCE[0]}" )"
+
+case $CMD in
+    start)
+        sleep 2 &
+        echo $! > /tmp/${APP}.pid
+        ;;
+    stop)
+        kill $(cat /tmp/${APP}.pid)
+        ;;
+    status)
+        kill -0 $(cat /tmp/${APP}.pid) 2>/dev/null && echo running || echo stopped
+        ;;
+esac

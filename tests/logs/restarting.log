@@ -1,0 +1,9 @@
+[main] configuration:
+  config = restarting.yaml
+
+[sleep-2] starting
+
+[sleep-2] starting
+
+[main] stopping
+[sleep-2] stopping

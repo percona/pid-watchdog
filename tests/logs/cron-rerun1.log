@@ -1,0 +1,5 @@
+[main] configuration:
+  config = cron-rerun1.yaml
+
+
+[main] stopping

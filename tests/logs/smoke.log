@@ -1,0 +1,6 @@
+[main] configuration:
+  config = smoke.yaml
+
+
+
+[main] stopping

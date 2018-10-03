@@ -1,0 +1,9 @@
+[main] configuration:
+  config = continuing.yaml
+
+[sleep-120] running
+
+[sleep-120] running
+
+[main] stopping
+[sleep-120] stopping

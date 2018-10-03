@@ -1,0 +1,10 @@
+[main] configuration:
+  config = config-changes.yaml
+
+
+[sleep-120] starting
+
+[sleep-120] running
+
+[main] stopping
+[sleep-120] stopping

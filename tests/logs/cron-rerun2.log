@@ -1,0 +1,4 @@
+[main] configuration:
+  config = cron-rerun2.yaml
+
+[main] app already is running, exiting

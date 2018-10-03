@@ -1,0 +1,9 @@
+[main] configuration:
+  config = start-stop.yaml
+
+[sleep-120] starting
+
+[sleep-120] running
+
+[main] stopping
+[sleep-120] stopping
