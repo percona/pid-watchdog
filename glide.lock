@@ -1,0 +1,47 @@
+hash: cce674051341cfc14858d2ae7251d88d0e126a0c68eeeef062fdfe9b596e011e
+updated: 2018-10-03T17:27:52.830371+03:00
+imports:
+- name: github.com/fsnotify/fsnotify
+  version: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
+- name: github.com/hashicorp/hcl
+  version: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/magiconair/properties
+  version: c2353362d570a7bfa228149c62842019201cfb71
+- name: github.com/mitchellh/mapstructure
+  version: fe40af7a9c397fa3ddba203c38a5042c5d0475ad
+- name: github.com/pelletier/go-toml
+  version: 81a861c69d25a841d0c4394f0e6f84bc8c5afae0
+- name: github.com/spf13/afero
+  version: d40851caa0d747393da1ffb28f7f9d8b4eeffebd
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 8965335b8c7107321228e3e3702cab9832751bac
+- name: github.com/spf13/jwalterweatherman
+  version: 4a4406e478ca629068e7768fc33f3f044173c0a6
+- name: github.com/spf13/pflag
+  version: 298182f68c66c05229eb03ac171abe6e309ee79a
+- name: github.com/spf13/viper
+  version: 2c12c60302a5a0e62ee102ca9bc996277c2f64f5
+- name: golang.org/x/sys
+  version: 219bb53033fb8511ee74a8375a3bc672a727bdce
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 905a57155faa8230500121607930ebb9dd8e139c
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []
